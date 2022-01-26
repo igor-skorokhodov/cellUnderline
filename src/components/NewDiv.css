@@ -1,0 +1,68 @@
+.div-selected {
+  position: absolute;
+  border: 1px solid black;
+  background-color: rgb(204, 201, 201);
+}
+
+.divActive {
+  position: absolute;
+  border: 2px solid black;
+  background-color: rgb(101, 197, 63);
+  z-index: 3;
+}
+
+.div-selected1 {
+  position: absolute;
+  border: 1px solid black;
+  background-color: rgb(187, 52, 52);
+}
+
+.App-header {
+  background-color: white;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.NewDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.field {
+  width: 800px;
+  height: 800px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell {
+  width: 50px;
+  height: 20px;
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.simple-board {
+  border-collapse: collapse;
+}
+
+.underline {
+  background-color: green;
+}
+
+.container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
