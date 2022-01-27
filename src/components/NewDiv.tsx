@@ -133,9 +133,9 @@ export default class Field extends React.Component<IFieldProps, IFieldState> {
               j! <= this.state.current?.endY!;
               j!++
             ) {
-              let elem = document.elementFromPoint(i!, j! -85!); //выделение ячеек
+              let elem = document.elementFromPoint(i!, e.pageY); //выделение ячеек
               if (
-                elem?.classList.contains("field")
+                elem?.classList.contains("div-selected1") || elem?.classList.contains("field")
               ) {
               } else {
                 elem?.classList.add("underline");
